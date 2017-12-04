@@ -173,7 +173,6 @@ void high_ISR(void){
         k = readKey();
         displayKey(k);
      
-        INTCONbits.INT0E = 0;
         INTCONbits.INT0F = 0;
     }
     INTCONbits.INT0E = 1;
