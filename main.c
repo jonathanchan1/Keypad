@@ -8,7 +8,7 @@
 /*________________________________KEYPAD_______________________________*/
 
 #include <p18f452.h>
-#include "xlcd.h"fw
+#include "xlcd.h"
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
